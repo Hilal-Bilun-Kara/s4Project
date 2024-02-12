@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: red;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.5rem;
+}
+
+header nav a:hover {
+    color:red;
+}
+
+header h1, header div {
+    width: 30%;
+}
+
+input {
+    padding: 0.5rem;
+    padding-right: 2rem;
+    background-image: url("https://w7.pngwing.com/pngs/608/913/png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+.notification-icon {
+    font-size: 1.2rem;
+}
+
+.user-avatar {
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+.access-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+main {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-star {
+    color:orangered;
+}
+
+.age {
+    border: 1px solid grey;
+    padding: 0 5px;
+    border-radius: 5px;
+
+}
+
+.text-red {
+    color: orangered;
+    ;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+
