@@ -63,17 +63,28 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start; /* hizlanama olmuyor*/
 }
 
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
 .fa-star {
     color:orangered;
 }
+
+
 
 .age {
     border: 1px solid grey;
     padding: 0 5px;
     border-radius: 5px;
+    
+}
 
+.description {
+    max-width: 50%;
 }
 
 .text-red {
@@ -83,21 +94,42 @@ main {
 
 .info-section {
     display: flex;
-    align-items: center;
     gap: 1.5rem;
+    
 }
 
 .btn {
-    display: inline-block;
-    padding: 0.5rem;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    border: 2px solid #3498db;
-    color: #3498db;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
+  width: 170px;
+  height: 60px;
+  padding: 10px 16px;
+  border: 1px solid orangered;  
+  border-radius: 10px;  
+  background-color: orangered;
+  color:white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+ 
+}
+
+.details {
+    margin: 4px;
+}
 
 
+
+.btn i {
+
+    margin: 5px 10px 5px -2rem;
+    font-size: 1.4rem;
+}
+
+.play-now {
+    margin: 5px 10px 5px 5px;
+}
+
+.banner-main {
+   display:flex;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
